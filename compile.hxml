@@ -1,0 +1,38 @@
+-js binBasic/_.js
+-cp src
+-lib heaps
+-main Basic
+#-D js-flatten 
+--next
+-cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><canvas id="webgl" bgColor="#FF181818" width="1024" height="968"></div></canvas><script src="_.js"></script></body></html>' >binBasic/index.html
+-cmd open binBasic/index.html
+
+--next
+-js binPathfinding/_.js
+-cp src
+-lib heaps
+-main Pathfinding
+#-D js-flatten 
+--next
+-cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><canvas id="webgl" bgColor="#FF181818" width="1024" height="968"></div></canvas><script src="_.js"></script></body></html>' >binPathfinding/index.html
+-cmd open binPathfinding/index.html
+
+--next
+-js binPathfindingMaze/_.js
+-cp src
+-lib heaps
+-main PathfindingMaze
+#-D js-flatten 
+--next
+-cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><canvas id="webgl" bgColor="#FF181818" width="1024" height="968"></div></canvas><script src="_.js"></script></body></html>' >binPathfindingMaze/index.html
+-cmd open binPathfindingMaze/index.html
+
+--next
+-js binBitmapPathfinding/_.js
+-cp src
+-lib heaps
+-main BitmapPathfinding
+#-D js-flatten 
+--next
+-cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><canvas id="webgl" bgColor="#FF181818" width="1024" height="968"></div></canvas><script src="_.js"></script></body></html>' >binBitmapPathfinding/index.html
+-cmd open binBitmapPathfinding/index.html
